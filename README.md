@@ -84,10 +84,10 @@ Demonstrate to create a group of microservices, provide a gateway for access, wi
     Should get below result (example):
     ```json
     {
-    "datetime": "2020-05-23T20:46:20.921077-07:00",
-    "utc_offset": "-07:00",
-    "timezone": "America/Los_Angeles",
-    "responseBy": "8101"
+    "datetime": "2020-05-24T23:00:07.574746+08:00",
+    "utc_offset": "+08:00",
+    "timezone": "Asia/Taipei",
+    "responseBy": "8102"
     }
     ```    
     `ResponseBy` property will tell us the port number of `retriever-service` instance(we activated 3 retriever-serivces in port `8101`, `8102` and `8103`) we accessed, if we execute above GET rquest several times, we shoud get `ResponseBy` property in `8101`, `8102` or `8103`
