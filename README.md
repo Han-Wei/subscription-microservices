@@ -15,6 +15,8 @@ Demonstrate to create a group of microservices, provide a gateway for access, wi
     cd git-config-service-repo
     
     git init
+
+    echo "apod_api_key=DEMO_KEY" > retriever-service-dev.properties
     
     git add retriever-service-dev.properties
     
